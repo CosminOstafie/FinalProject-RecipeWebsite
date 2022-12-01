@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 nav {
   display: flex;
 
@@ -186,4 +191,42 @@ nav {
   .menus a {
     text-align: center;
   }
+}
+
+footer {
+  background-color: black;
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.follow {
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+.socialBtns {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  justify-self: center;
+}
+
+.menusFooter {
+  display: flex;
+
+  padding: 5px;
+  margin: 10px;
+}
+.menusFooter li {
+  margin: 5px;
+  padding: 5px;
+}
+.menusFooter ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
