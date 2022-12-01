@@ -85,6 +85,8 @@ nav {
   border-radius: 7px;
 }
 
+/* start */
+
 .parentMAIN { 
   display: grid; 
   grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr; 
@@ -152,7 +154,7 @@ nav {
     line-height: 80px;
     } 
 
-
+/* end */
 
 
 @media (max-width: 860px) {
