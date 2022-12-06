@@ -8,7 +8,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="styleNav.css" />
+    <link rel="stylesheet" href="styleNavFooter.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Chef's Choice</title>
   </head>
   <body>
@@ -33,21 +34,55 @@
           <li><a href="#">Tips&Techniques</a></li>
         </ul>
       </div>
-      <div class="search"><input type="text" placeholder="Search" /></div>
+      <div class="search">
+        <form action=""></form>
+        <input type="text" placeholder="Search" />
+      </div>
     </nav>
+    <div class="containerCategories">
+      <div class="mainCourses">
+        <a href="#">
+          <img src="res/maincourses.jpg" alt="MainCoursesImg" />
+        </a>
+        <h1 class="textlabel">Main Courses</h1>
+      </div>
+      <div class="sides">
+        <a href="#">
+          <img src="res/sides.jpg" alt="sidesImg" />
+        </a>
+        <h1 class="textlabel">Sides</h1>
+      </div>
 
-    <div class="parentMAIN">
-      <div class="Dinners">
-        <div class="tline1"><p>Main Courses</p></div>
-      </div>
-      <div class="Desserts">
-        <div class="tline2"><p>Desserts</p></div>
-      </div>
-      <div class="Sides">
-        <div class="tline3"><p>Sides</p></div>
+      <div class="desserts">
+        <a href="#">
+          <img id="dessertsimg" src="res/desserts.jpg" alt="dessertsImg" />
+        </a>
+        <h1 class="textlabel">Desserts</h1>
       </div>
     </div>
-
+    <div class="latestRecipesContainer">
+      <hr class="divider" />
+      <h1 class="textbox-latest">Latest Recipes</h1>
+      <div class="recipes-grid">
+        <div class="recipe-1">
+          <a href="detail.html">
+            <div class="cell-content">
+              <img src="res/beef-steak-crop.jpg" alt="recipe-1" />
+              <p class="recipe-info">Beef Tenderloin Steak</p>
+            </div>
+          </a>
+        </div>
+        <div class="recipe-2"></div>
+        <div class="recipe-3"></div>
+        <div class="recipe-4"></div>
+        <div class="recipe-5"></div>
+        <div class="recipe-6"></div>
+        <div class="recipe-7"></div>
+        <div class="recipe-8"></div>
+        <div class="recipe-9"></div>
+        <div class="recipe-10"></div>
+      </div>
+    </div>
     <footer>
       <div class="logo">
         <a href="index.html"

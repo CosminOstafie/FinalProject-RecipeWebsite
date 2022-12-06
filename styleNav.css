@@ -117,10 +117,18 @@ nav {
 
 .Desserts {
   grid-area: 1 / 3 / 3 / 4;
-  background-image: url(desserts.jpg);
-  background-size: 120%;
-  background-position: center;
+  /* background-image: url(desserts.jpg);
+  background-size: 120%; */
+  /* background-position: center; */
   font-size: x-large;
+  align-items: center;
+  justify-items: center;
+}
+.Desserts img {
+  width: 105%;
+  justify-self: center;
+  object-fit: fill;
+  align-self: center;
 }
 
 .tline2 {
