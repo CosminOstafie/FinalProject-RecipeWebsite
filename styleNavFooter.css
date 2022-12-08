@@ -168,3 +168,7 @@ footer {
   justify-self: center;
   align-self: center;
 }
+
+.logo {
+  grid-column: 1/2;
+}
