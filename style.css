@@ -1,7 +1,7 @@
 .containerCategories {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 12vh;
+  margin-top: 15px;
 }
 
 .mainCourses {
@@ -73,6 +73,7 @@ img {
   margin-top: 1rem;
   border-top: 3px solid black;
   border-radius: 6px;
+  width: 100vw;
 }
 
 .textbox-latest {
