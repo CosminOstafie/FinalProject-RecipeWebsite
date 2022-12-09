@@ -9,9 +9,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styleNavFooter.css" />
-    <link rel="stylesheet" href="styleShopping.css" />
-
-    <title>Chef's Choice</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleCheckout.css" />
+    <title>Checkout</title>
   </head>
   <body>
     <nav class="nav">
@@ -40,30 +40,38 @@
         <input type="text" placeholder="Search" />
       </div>
     </nav>
-
-    <div class="main-content">
-      <div class="title">
-        <h1>Related Products</h1>
-      </div>
-
-      <div class="product">
-        <a href="checkout.html">
-          <img src="res/snoop-book.jpg" alt="product-1" />
-          <div class="textbox">
-            <p class="product-info">
-              From Crook to Cook: Platinum Recipes from Tha Boss Dogg's Kitchen
-              (Snoop Dogg Cookbook, Celebrity Cookbook with Soul Food Recipes)
-              (Snoop Dog x Chronicle Books)
-            </p>
+    <h1 class="title">Finish Order</h1>
+    <div class="main-container">
+      <div class="checkout-form">
+        <form action="#">
+          <div class="left">
+            <h2>Personal Information</h2>
+            <label for="firstnameinput">First Name</label>
+            <input type="text" id="firstnameinput" />
+            <label for="lastnameinput">Last Name</label>
+            <input type="text" id="lastnameinput" />
+            <label for="emailinput">Email</label>
+            <input type="text" id="emailinput" />
+            <label for="phoneinput">Phone number</label>
+            <input type="text" id="phoneinput" />
+            <label for="countryinput">Country</label>
+            <input type="text" id="countryinput" />
+            <label for="addressinput">Address</label>
+            <input type="text" id="addressinput" />
+            <label for="zipinput">Zip/Postal Code</label>
+            <input type="text" id="zipinput" />
           </div>
-          <div class="author">Author: Snoop Dog</div>
-          <span class="price">161,00 kr</span>
-          <form action="checkout.html">
-            <input id="buybtn" type="submit" value="Buy Now" /></form
-        ></a>
+          <div class="middle">
+            <h2>Shipping</h2>
+            <br />
+            <div class="shipping-wrap">
+              <label for="shipping">PostNord</label>
+              <input type="checkbox" id="shipping" />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
-
     <footer>
       <div class="logo">
         <a href="index.html"
